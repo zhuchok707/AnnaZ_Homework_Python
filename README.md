@@ -16,3 +16,11 @@
 
 3. Запустить тесты:
    pytest 08_lesson
+
+# Lesson 10 — Allure + PageObject
+
+1. Запуск тестов с формированием отчета
+pytest --alluredir=allure-results
+
+2.  Просмотр отчета
+allure serve allure-results
